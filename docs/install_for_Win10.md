@@ -4,8 +4,9 @@
 - 01. install manually
 - 02. install with package management
 
-### Package management
+### Package management (ex: homebrew for macOS)
 - [Chocolate](https://chocolatey.org)
   - Popular tools
 - [Scoop](https://scoop.sh)
   - Development tools
+
