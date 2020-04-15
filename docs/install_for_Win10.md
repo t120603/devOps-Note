@@ -7,6 +7,16 @@
 ### Package management (ex: homebrew for macOS)
 - [Chocolate](https://chocolatey.org)
   - Popular tools
+  - Use "administrative shell".
+
+```
+choco install curl
+```
+
 - [Scoop](https://scoop.sh)
   - Development tools
+  - Use PowerShell to install.
 
+```
+scoope install curl
+```
