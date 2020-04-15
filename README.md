@@ -14,9 +14,10 @@ About notes when I learning DevOps.
 ### About Terraform (IaC)
 - [how to install Terraform](docs/how_to_install_terraform.md)
 - We learn Terraform to do repeatable operation with cloud services.
-- [support cloud providers](https://www.terraform.io/docs/providers/index.html)
+- Support cloud providers [List](https://www.terraform.io/docs/providers/index.html)
   - EX: AWS, Azure, GCP...etc. (Major provider)
-- REASON: IaC = infrastructure as code
+- REASON1: IaC = infrastructure as code.
+- REASON2: declarative, describe final status of infrastructure.
 
 ### Cloud Service Providers
 
