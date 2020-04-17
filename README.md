@@ -3,6 +3,11 @@
 ## Introduction
 About notes when I learning DevOps.
 
+## Demo projects:
+- [Terrafom-Azure-Demo]
+  - Use Terrafrom manage Azure Web Server. (To learn basic of Terraform v0.12.x)
+
+
 ## Notes:
 
 ### Prerequisite:
