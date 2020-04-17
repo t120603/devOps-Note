@@ -19,3 +19,19 @@ brew install azure-cli
 ```
 
 
+[Philip feedback]
+I ran into following error message when execute "brew install azure-cli"
+
+Updating Homebrew...
+Error: The following directories are not writable by your user:
+/usr/local/lib/pkgconfig
+/usr/local/share/man/man5
+/usr/local/share/man/man7
+
+You should change the ownership of these directories to your user.
+  sudo chown -R $(whoami) /usr/local/lib/pkgconfig /usr/local/share/man/man5 /usr/local/share/man/man7
+
+And make sure that your user has write permission.
+  chmod u+w /usr/local/lib/pkgconfig /usr/local/share/man/man5 /usr/local/share/man/man7
+
+Not sure what I done, finally, the installation was completed.
